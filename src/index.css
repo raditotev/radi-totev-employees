@@ -32,9 +32,15 @@ table {
   margin: 2rem auto;
 }
 
+table thead {
+  background-color: #333;
+  color: whitesmoke;
+}
+
 table thead tr th,
 table tbody tr td {
   padding: 1rem 0.5rem;
+  text-align: center;
 }
 
 table tbody tr:nth-child(even) {
