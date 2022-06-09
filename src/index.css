@@ -28,6 +28,10 @@ form {
   align-items: center;
 }
 
+form label {
+  display: none;
+}
+
 table {
   margin: 2rem auto;
 }

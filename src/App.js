@@ -24,7 +24,10 @@ function App() {
     <main>
       <h1>Find employees who worked on common projects</h1>
       <form>
-        <input type="file" accept=".csv" onChange={changeHandler} />
+        <div>
+          <label htmlFor="file">Select file</label>
+          <input id="file" type="file" accept=".csv" onChange={changeHandler} />
+        </div>
       </form>
       <Table projects={projects} />
     </main>
