@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Find employees who work or have worked together
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Open any `.csv` file and it will show if there are pairs of employees who work or have been working together in the past. If there is more than one project for a pair the app will list the project where they have worked the longest together.
 
 ## Available Scripts
 
