@@ -6,7 +6,7 @@ import Table from './components/Table';
 const fileReader = new FileReader();
 
 function App() {
-  const [projects, setProjects] = useState([]);
+  const [projects, setProjects] = useState(null);
 
   const changeHandler = (e) => {
     const file = e.target.files[0];
